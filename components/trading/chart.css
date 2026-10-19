@@ -1,0 +1,232 @@
+.market-chart {
+  overflow: hidden;
+  min-width: 0;
+}
+.market-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 20px;
+}
+.market-chart-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.market-chart-identity h2 {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.chart-asset-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  border: 1px solid #263340;
+  border-radius: 50%;
+  background: #17212c;
+  font-size: 23px;
+  font-weight: 500;
+}
+.chart-pair {
+  font-size: 13px;
+  font-weight: 400;
+}
+.chart-exchange {
+  font-size: 10px;
+}
+.market-chart-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  white-space: nowrap;
+}
+.market-chart-quote strong {
+  font-family: var(--font-geist-mono), "Geist Mono", monospace;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+}
+.market-chart-quote > span {
+  font-size: 11px;
+  font-family: var(--font-geist-mono), "Geist Mono", monospace;
+}
+.market-chart-toolbar {
+  min-height: 45px;
+  padding: 8px 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-block: 1px solid #263340;
+}
+.chart-timeframes {
+  display: flex;
+  gap: 3px;
+}
+.market-chart .chart-timeframes button {
+  border: 0;
+  background: transparent;
+  color: #96a6b5;
+  padding: 6px 9px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: var(--font-geist-mono), "Geist Mono", monospace;
+  cursor: pointer;
+}
+.market-chart .chart-timeframes button.active {
+  color: #36d6a5;
+  background: #36d6a514;
+}
+.chart-tool-buttons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.chart-icon-button,
+.chart-text-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #96a6b5;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  height: 27px;
+  cursor: pointer;
+}
+.chart-icon-button {
+  width: 28px;
+}
+.chart-text-toggle {
+  padding: 0 6px;
+  font-size: 10px;
+}
+.chart-icon-button.active,
+.chart-text-toggle.active {
+  color: #eff4f8;
+  background: #263340;
+}
+.chart-icon-button:hover,
+.chart-text-toggle:hover,
+.market-chart .chart-timeframes button:hover {
+  color: #eff4f8;
+  background: #263340;
+}
+.chart-tool-divider {
+  height: 16px;
+  width: 1px;
+  background: #263340;
+  margin: 0 4px;
+}
+.chart-ohlc {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 13px 18px 6px;
+  min-height: 34px;
+  color: #96a6b5;
+  font-size: 9px;
+  font-family: var(--font-geist-mono), "Geist Mono", monospace;
+}
+.chart-ohlc b {
+  color: #cbd6e0;
+  font-weight: 400;
+  margin-left: 4px;
+}
+.chart-ohlc b.positive {
+  color: #36d6a5;
+}
+.chart-ohlc b.negative {
+  color: #f0717b;
+}
+.chart-ema-label {
+  margin-left: auto;
+  font-size: 9px;
+}
+.chart-ema-label i {
+  display: inline-block;
+  width: 12px;
+  height: 2px;
+  background: #e9bc66;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.market-chart-canvas {
+  width: 100%;
+  min-width: 0;
+}
+.market-chart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border-top: 1px solid #263340;
+  color: #96a6b5;
+  font-size: 10px;
+}
+.market-chart-footer > span,
+.market-chart-footer a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.market-chart-footer a {
+  color: #96a6b5;
+  text-decoration: none;
+}
+.market-chart-footer a:hover {
+  color: #36d6a5;
+}
+.chart-status-dot {
+  width: 5px;
+  height: 5px;
+  background: #36d6a5;
+  border-radius: 50%;
+}
+.chart-footer-separator {
+  color: #526474;
+}
+.chart-empty {
+  display: grid;
+  place-items: center;
+}
+@media (max-width: 640px) {
+  .market-chart-header {
+    padding: 15px 13px;
+  }
+  .market-chart-quote strong {
+    font-size: 18px;
+  }
+  .chart-ohlc {
+    gap: 7px;
+    padding-inline: 12px;
+    font-size: 8px;
+  }
+  .chart-ema-label {
+    display: none;
+  }
+  .market-chart-toolbar {
+    gap: 7px;
+    padding-inline: 9px;
+  }
+  .chart-tool-buttons {
+    gap: 2px;
+  }
+  .market-chart-footer {
+    padding-inline: 12px;
+    font-size: 9px;
+  }
+  .chart-exchange {
+    font-size: 9px;
+  }
+}
