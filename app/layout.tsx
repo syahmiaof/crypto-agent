@@ -8,9 +8,31 @@ import "@fontsource/geist-mono/500.css";
 import "./globals.css";
 import { AppShell } from "@/components/layout/AppShell";
 export const metadata: Metadata = {
-  title: "Crypto AI · Mission Control",
+  metadataBase: new URL("https://cryptoai.syahmiaof.my"),
+  title: "Crypto AI · Mission Control | Autonomous Trading Intelligence",
   description:
-    "A coordinated cryptocurrency research workspace. Deterministic simulated data. Paper trading only.",
+    "Intelligent Markets. Coordinated Agents. Controlled Decisions. Institutional multi-agent cryptocurrency trading command center.",
+  openGraph: {
+    title: "Crypto AI · Mission Control",
+    description: "Intelligent Markets. Coordinated Agents. Controlled Decisions.",
+    url: "https://cryptoai.syahmiaof.my",
+    siteName: "Crypto AI Mission Control",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Crypto AI Mission Control Preview",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Crypto AI · Mission Control",
+    description: "Intelligent Markets. Coordinated Agents. Controlled Decisions.",
+    images: ["/og-image.jpg"],
+  },
 };
 export default function RootLayout({
   children,
