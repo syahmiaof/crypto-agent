@@ -1,6 +1,25 @@
 {
   "name": "crypto-ai-mission-control",
   "version": "1.0.0",
+  "description": "Crypto AI Mission Control — Institutional Multi-Agent Cryptocurrency Trading Command Center",
+  "author": "Syahmi Aof <syahmiaof123@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://cryptoai.syahmiaof.my",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syahmiaof/crypto-agent.git"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "ai-agents",
+    "nextjs",
+    "tradingview",
+    "defi",
+    "quantitative-trading",
+    "defai",
+    "mission-control"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
