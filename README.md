@@ -5,19 +5,29 @@
 # CRYPTO AI — MISSION CONTROL
 ### *Intelligent Markets. Coordinated Agents. Controlled Decisions.*
 
-[![Live Demo](https://img.shields.io/badge/Demo-cryptoai.syahmiaof.my-36D6A5?style=for-the-badge&logo=vercel&logoColor=white)](https://cryptoai.syahmiaof.my)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-16.2.9-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.2-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![CI Status](https://img.shields.io/badge/CI-Passing-brightgreen?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/syahmiaof/crypto-agent/actions)
+<p>
+  <a href="https://cryptoai.syahmiaof.my"><img src="https://img.shields.io/badge/Demo-cryptoai.syahmiaof.my-60E1B5?style=for-the-badge&logo=vercel&logoColor=60E1B5&labelColor=101713" alt="Demo Live" /></a>
+  <a href="https://github.com/syahmiaof/crypto-agent"><img src="https://img.shields.io/badge/Source-GitHub-60E1B5?style=for-the-badge&logo=github&logoColor=60E1B5&labelColor=101713" alt="GitHub Source" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-All_Rights_Reserved-60E1B5?style=for-the-badge&logoColor=60E1B5&labelColor=101713" alt="License All Rights Reserved" /></a>
+  <a href="https://syahmiaof.my"><img src="https://img.shields.io/badge/Author-syahmiaof-60E1B5?style=for-the-badge&logo=readme&logoColor=60E1B5&labelColor=101713" alt="Author syahmiaof" /></a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-101713?style=for-the-badge&logo=next.js&logoColor=60E1B5" alt="Next.js 16" />
+  <img src="https://img.shields.io/badge/React_19-101713?style=for-the-badge&logo=react&logoColor=60E1B5" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript-101713?style=for-the-badge&logo=typescript&logoColor=60E1B5" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS_v4-101713?style=for-the-badge&logo=tailwindcss&logoColor=60E1B5" alt="Tailwind CSS v4" />
+  <img src="https://img.shields.io/badge/TradingView_Charts-101713?style=for-the-badge&logo=tradingview&logoColor=60E1B5" alt="TradingView" />
+  <img src="https://img.shields.io/badge/Zustand_State-101713?style=for-the-badge&logo=redux&logoColor=60E1B5" alt="Zustand" />
+  <img src="https://img.shields.io/badge/Playwright_E2E-101713?style=for-the-badge&logo=playwright&logoColor=60E1B5" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Vitest-101713?style=for-the-badge&logo=vitest&logoColor=60E1B5" alt="Vitest" />
+</p>
 
 <p align="center">
   <b>An institutional-grade multi-agent cryptocurrency intelligence terminal, algorithmic strategy laboratory, and simulated execution command center.</b>
 </p>
 
-[**Explore Live Terminal**](https://cryptoai.syahmiaof.my) • [**Features**](#key-features) • [**Architecture**](#system-architecture) • [**Modules**](#completed-modules-10-pages) • [**Quick Start**](#getting-started) • [**Contributing**](#contributing)
+[**Explore Live Terminal**](https://cryptoai.syahmiaof.my) • [**Features**](#-key-features) • [**Architecture**](#%EF%B8%8F-system-architecture) • [**Modules**](#%EF%B8%8F-completed-modules-10-pages) • [**Technology Stack**](#%EF%B8%8F-tech-stack)
 
 ---
 
@@ -25,9 +35,9 @@
 
 ## 📌 Overview
 
-**Crypto AI — Mission Control** bridges the gap between autonomous multi-agent quantitative intelligence and deterministic risk management. 
-
-Instead of treating Large Language Models (LLMs) as fragile direct market-execution triggers, Mission Control deploys a **specialized multi-agent committee** (Technical, Sentiment, Market Intelligence, Bull/Bear Advocates, and Strategy Managers) tasked with evidence synthesis, debate, and signal generation — protected by **hardcoded, non-bypassable quantitative risk guardrails**.
+- **Functionality**: Multi-agent algorithmic cryptocurrency intelligence terminal, strategy backtesting sandbox, and paper execution command center with 7 specialized LLM analysts.
+- **Aesthetic Value**: High-density institutional trading terminal combining interactive TradingView charts, real-time agent debate arenas, and cohesive cyberpunk design tokens.
+- **Business Value**: Eliminates unconstrained AI trading risk by isolating generative LLM debate behind deterministic, non-bypassable mathematical risk gatekeepers and global emergency stops.
 
 > [!IMPORTANT]
 > **Environment Note:** This software operates in **Simulated Paper Trading Mode** with deterministic market fixtures. No real capital, private keys, or external exchange execution APIs are connected by default.
@@ -100,64 +110,20 @@ graph TD
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router, Turbopack)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
-- **UI & Primitives**: [Radix UI](https://www.radix-ui.com/), [Lucide React](https://lucide.dev/), [Geist Fonts](https://vercel.com/font)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **Charts**: [TradingView Lightweight Charts v5](https://tradingview.github.io/lightweight-charts/), [Recharts v3](https://recharts.org/)
-- **State Management**: [Zustand v5](https://github.com/pmndrs/zustand) with validation guards and persistence
-- **Testing**: [Vitest](https://vitest.dev/), [Playwright](https://playwright.dev/), [Testing Library](https://testing-library.com/)
-- **Deployment**: [Vercel](https://vercel.com/) Edge Network with [Cloudflare DNS](https://www.cloudflare.com/)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v20+ 
-- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/syahmiaof/crypto-agent.git
-   cd crypto-agent
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Open in browser**:
-   Navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000) (auto-redirects to `/dashboard`).
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **Language**: TypeScript (Strict Mode)
+- **UI & Primitives**: Radix UI, Lucide React, Geist Fonts
+- **Styling**: Tailwind CSS v4
+- **Charts**: TradingView Lightweight Charts v5, Recharts v3
+- **State Management**: Zustand v5 with validation guards and persistence
+- **Testing**: Vitest, Playwright, Testing Library
+- **Deployment**: Vercel Edge Network with Cloudflare DNS
 
 ---
 
 ## 🧪 Testing & Quality Assurance
 
-The codebase includes comprehensive test suites covering domain calculations, risk rules, workflow journeys, and visual regressions:
-
-```bash
-# Type-check TypeScript code
-npm run typecheck
-
-# Run unit and domain calculation tests
-npm test
-
-# Run End-to-End Playwright workflow tests
-npm run test:e2e
-
-# Run production build validation
-npm run build
-```
+The codebase maintains automated test suites covering domain calculations, deterministic risk gatekeeping rules, end-to-end user journeys, and visual regressions validated continuously through GitHub Actions CI.
 
 ---
 
@@ -200,28 +166,17 @@ crypto-agent/
 
 - **No Real Capital at Risk**: This application is strictly an educational, research, and simulation platform.
 - **API Key Security**: Never hardcode private keys, seed phrases, or exchange withdrawal API keys into client code or version control.
-- **Deterministic Rules**: Real automated execution systems should always isolate trade execution behind cryptographically restricted keys (e.g. Hyperliquid Agent Wallets or Luno Trade-Only APIs) with external hardware or server-side circuit breakers.
-
----
-
-## 🤝 Contributing
-
-Contributions are warmly welcomed! Please read our [Contributing Guide](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md) before opening a pull request or submitting an issue.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: add some amazing feature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- **Deterministic Rules**: Real automated execution systems should always isolate trade execution behind cryptographically restricted keys with external hardware or server-side circuit breakers.
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for more information.
+Copyright (c) 2026 Muhammad Syahmi ([syahmiaof](https://syahmiaof.my)). All rights reserved.  
+Proprietary source code created solely for demonstration and portfolio showcase purposes.
 
 ---
 
 <div align="center">
-  <sub>Built with precision by <a href="https://github.com/syahmiaof">Syahmi Aof</a> • Production Live at <a href="https://cryptoai.syahmiaof.my">cryptoai.syahmiaof.my</a></sub>
+  <sub>Built with precision by <a href="https://github.com/syahmiaof">Muhammad Syahmi</a> • Production Live at <a href="https://cryptoai.syahmiaof.my">cryptoai.syahmiaof.my</a></sub>
 </div>
